@@ -15,9 +15,9 @@ function M.focus()
   -- open explorer window
   -- M._view:open()
   -- reload and render the explorer tree
-  M:reload()
+  api.explorer.reload()
   -- focus the current file
-  M.focus_file(fpath)
+  api.navigation.focus(fpath)
 end
 
 function M.setup()
