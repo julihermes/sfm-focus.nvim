@@ -17,7 +17,7 @@ function M.focus()
   api.explorer.close()
   api.explorer.open()
   -- reload and render the explorer tree
-  -- api.explorer.reload()
+  api.explorer.reload()
   -- focus the current file
   -- api.navigation.focus(fpath)
 end
